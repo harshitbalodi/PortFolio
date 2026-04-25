@@ -8,6 +8,8 @@ import { Github, Linkedin, Mail, Loader2 } from 'lucide-react';
 const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY;
 const FALLBACK_EMAIL = 'balodiharshit1907@gmail.com';
 
+console.log("Key:", import.meta.env.VITE_WEB3FORMS_KEY);
+
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState({ type: '', text: '' });
